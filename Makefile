@@ -1,8 +1,8 @@
 a.out:
-	gcc Aaprender2.c
+	gcc NumaCaixa.c
 
 clean:
-	rm Aaprender2
+	rm NumaCaixa
 
 test: a.out
 	bash test.sh
